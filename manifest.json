@@ -1,0 +1,27 @@
+{
+    "name": "Text to Speech (TTS)",
+    "description": "Text to Speech (TTS)",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "scripting",
+        "activeTab"
+      ],
+    "action": {
+        "default_popup": "tts.html",
+        "default_icon": {
+            "16": "images/speaker16.png",
+            "32": "images/speaker32.png",
+            "128": "images/speaker128.png"
+        }
+    },
+    "background": {
+        "service_worker": "tts.js"
+    },
+    "icons": {
+        "16": "images/speaker16.png",
+        "32": "images/speaker32.png",
+        "128": "images/speaker128.png"
+    }
+}
